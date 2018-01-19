@@ -34,7 +34,7 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -444,6 +444,10 @@ footer img:nth-of-type(2) {
         margin-top: 2rem;
         display: inline-table;
         width: 100%;
+    }
+
+    .card-3 img{
+        max-width: 100%;
     }
 
     #section-e .grid {
